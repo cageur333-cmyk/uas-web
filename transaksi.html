@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Titipin - Transaksi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="assets/logo-titipin.png" alt="Logo Titipin">
+      <h1>Titipin</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="transaksi.html">Transaksi</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Form Transaksi</h2>
+
+      <form id="formTransaksi">
+        <label for="nama">Nama Transaksi</label>
+        <input type="text" id="nama" placeholder="Contoh: Penitipan Foto Wisuda">
+
+        <label for="jumlah">Jumlah File</label>
+        <input type="number" id="jumlah" placeholder="Contoh: 10">
+
+        <label for="kategori">Kategori</label>
+        <select id="kategori">
+          <option value="">-- Pilih Kategori --</option>
+          <option value="Foto">Foto</option>
+          <option value="Video">Video</option>
+          <option value="Foto dan Video">Foto dan Video</option>
+        </select>
+
+        <button type="submit" class="btn">Simpan</button>
+      </form>
+
+      <p class="link-daftar">
+        Lihat data transaksi:
+        <a href="daftar-transaksi.html">Daftar Transaksi</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Titipin. Semua Hak Dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
